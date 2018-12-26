@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Shopping List</string>
+    <string name="action_settings">Settings</string>
+    <string name="add_from_gallery">Use gallery</string>
+    <string name="add_from_camera">Use camera</string>
+    <string name="fill_all">Fill all lines</string>
+    <string name="choose_photo">Choose photo first</string>
+    <string name="shopping_list">"shopping list"</string>
+    <string name="purchased">purchased</string>
+    <string name="access_denied">permission is required to make this action</string>
+    <string name="description">description</string>
+    <string name="price">price</string>
+    <string name="name">name</string>
+</resources>
