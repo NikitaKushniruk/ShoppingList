@@ -1,13 +1,15 @@
 package domain;
 
+import android.content.Context;
+import android.graphics.Bitmap;
+import android.support.v4.app.Fragment;
+
 import java.util.ArrayList;
 
 import entity.Product;
 
 public interface AllProductsView {
    void initProductsList(ArrayList<Product> arrayList);
-   void takePhoto();
-   void openImage();
    void creatAlertDialog();
    void creatEmptyLineAlertToast();
    void creatEmptyBitmapAlertToast();
@@ -21,4 +23,7 @@ public interface AllProductsView {
    void notifyBackButtonClicked();
    void notifySetAllButtonClicked();
    void notifyMoveButtonClicked();
+   Fragment getViewActivity();
+   Context getFragmentContext();
+   void setImageBitmap(Bitmap bitmap);
 }
